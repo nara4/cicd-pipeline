@@ -8,7 +8,7 @@ pipeline {
           }
        stage ('test') {
         steps {
-          echo "Testing a jenkins pipeline through declarative pipeline!!!"
+          echo "testing a jenkins pipeline through declarative pipeline!!!"
                }
              }
         stage ('Deploy') {
