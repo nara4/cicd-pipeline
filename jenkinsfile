@@ -6,5 +6,15 @@ pipeline {
           echo "Building a jenkins pipeline through declarative pipeline!!!"
             }
           }
-        }
+       stage ('test') {
+        steps {
+          echo "Testing a jenkins pipeline through declarative pipeline!!!"
+               }
+             }
+        stage ('Deploy') {
+        steps {
+          echo "Deploying a jenkins pipeline through declarative pipeline!!!"
+               }
+             }
+         }
       }
